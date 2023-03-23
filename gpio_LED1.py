@@ -18,7 +18,7 @@ GPIO.setup(17,GPIO.OUT)
 # 17번 핀을 출력으로 설정하였
 
 while(True):
-    GPIO.output(17,False)다
+    GPIO.output(17,False)
     # false : 즉, 0V
     time.sleep(2) # 2초 지연
     GPIO.output(17,True) # true : 보통 5V 그냥 ON이라고 생각하자
